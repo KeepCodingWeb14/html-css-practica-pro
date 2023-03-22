@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     home: './src/home.js',
     projectsPage: './src/projectsPage.js',
+    error: './src/error.js',
   },
   mode: 'development',
   devtool: 'inline-source-map',
@@ -35,6 +36,16 @@ module.exports = {
       template: 'src/templates/projects.html',
       filename: 'projects.html',
       chunks: ['projectsPage'],
+    }),
+    new HtmlWebpackPlugin({
+      template: 'src/templates/404.html',
+      filename: '404.html',
+      chunks: ['error'],
+    }),
+    new HtmlWebpackPlugin({
+      template: 'src/templates/500.html',
+      filename: '500.html',
+      chunks: ['error'],
     }),
   ],
 };
