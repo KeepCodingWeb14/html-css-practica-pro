@@ -20,7 +20,6 @@ contactForm.addEventListener('submit', evt => {
   FORM_FIELDS.forEach(field => {
     const errorMessage = getErrorMessages(form[field].validity);
     if (errorMessage) {
-      console.log();
       renderError(FORM_ID, field, errorMessage);
     }
   });
