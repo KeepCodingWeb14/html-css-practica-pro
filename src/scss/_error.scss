@@ -9,16 +9,14 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-
-.error-page h2 {
-  font-size: 4rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.error-page .message {
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 20px;
+  h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .message {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
 }

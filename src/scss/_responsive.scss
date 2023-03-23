@@ -1,0 +1,22 @@
+$TABLET_WIDTH: 768px;
+$LAPTOP_WIDTH: 1200px;
+$LARGE_WIDTH: 1400px;
+
+@mixin tablet {
+  @media only screen and (min-width: $TABLET_WIDTH) {
+    @content;
+  }
+};
+
+@mixin laptop {
+  @media only screen and (min-width: $LAPTOP_WIDTH) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media only screen and (min-width: $LARGE_WIDTH) {
+    @content;
+  }
+}
+
