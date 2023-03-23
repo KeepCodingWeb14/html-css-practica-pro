@@ -1,8 +1,11 @@
-@import url('./reset.scss');
-@import url('./common.scss');
-@import url('./navbar.scss');
-@import url('./header.scss');
-@import url('./form.scss');
-@import url('./skills.scss');
-@import url('./footer.scss');
-@import url('./carousel.scss');
+// partials
+// _reset.scss
+// @import url('./reset.scss');
+@forward './reset.scss';
+@forward './common.scss';
+@forward './navbar.scss';
+@forward './header.scss';
+@forward './form.scss';
+@forward './skills.scss';
+@forward './footer.scss';
+@forward './carousel.scss';
