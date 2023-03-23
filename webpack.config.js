@@ -12,13 +12,14 @@ module.exports = {
   output: {
     filename: '[name].[chunkhash].bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true,
+    // clean: true,
   },
   module: {
     rules: [
       {
-        test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
+        test: /\.s?[ac]ss$/i,
+        // test: /\.(scss|sass|css)$/i,
+        use: ['style-loader', 'css-loader' , 'sass-loader'],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,

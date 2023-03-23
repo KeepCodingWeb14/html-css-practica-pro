@@ -1,5 +1,5 @@
-import './css/reset.css';
-import './css/common.css';
-import './css/navbar.css';
-import './css/footer.css';
-import './css/error.css';
+import './scss/reset.scss';
+import './scss/common.scss';
+import './scss/navbar.scss';
+import './scss/footer.scss';
+import './scss/error.scss';
