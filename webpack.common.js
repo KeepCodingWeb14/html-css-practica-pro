@@ -1,3 +1,4 @@
+require('dotenv').config();
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -7,12 +8,9 @@ module.exports = {
     projectsPage: './src/projectsPage.js',
     error: './src/error.js',
   },
-  mode: 'development',
-  devtool: 'inline-source-map',
   output: {
     filename: '[name].[chunkhash].bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    // clean: true,
   },
   module: {
     rules: [

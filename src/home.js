@@ -1,4 +1,4 @@
 import './form';
 import './scss/home.scss';
 
-console.log('cambio nuevo sin clean');
+console.log('cambio nuevo');
