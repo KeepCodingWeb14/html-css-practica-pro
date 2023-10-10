@@ -44,18 +44,18 @@ We decided to create a portfolio for Shin Chan. You could take a look to the pro
 
 ### Homepage
 
-<img src="https://raw.githubusercontent.com/KeepCodingWeb14/html-css-practica/main/images/docs/desktop_home.png" />
-<img src="https://raw.githubusercontent.com/KeepCodingWeb14/html-css-practica/main/images/docs/mobile_home.png" width="200" />
+<img src="https://raw.githubusercontent.com/KeepCodingWeb14/html-css-practica-pro/main/images/docs/desktop_home.png" />
+<img src="https://raw.githubusercontent.com/KeepCodingWeb14/html-css-practica-pro/main/images/docs/mobile_home.png" width="200" />
 
 ---
 
 ### Projects
 
-![Projects desktop](https://raw.githubusercontent.com/KeepCodingWeb14/html-css-practica/main/images/docs/desktop_projects.png "Projects desktop")
-<img src="https://raw.githubusercontent.com/KeepCodingWeb14/html-css-practica/main/images/docs/mobile_projects.png" width="200" />
+![Projects desktop](https://raw.githubusercontent.com/KeepCodingWeb14/html-css-practica-pro/main/images/docs/desktop_projects.png "Projects desktop")
+<img src="https://raw.githubusercontent.com/KeepCodingWeb14/html-css-practica-pro/main/images/docs/mobile_projects.png" width="200" />
 
 ---
 
 ### Error
 
-<img src="https://raw.githubusercontent.com/KeepCodingWeb14/html-css-practica/main/images/docs/mobile_error.png" width="200" />
+<img src="https://raw.githubusercontent.com/KeepCodingWeb14/html-css-practica-pro/main/images/docs/mobile_error.png" width="200" />
